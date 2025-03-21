@@ -119,9 +119,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 8px;
 }
 .our-team-container {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .title-our-team {
   font-weight: 700;
@@ -131,6 +133,7 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .list-team-our {
   background-color: #ffffff;
@@ -142,6 +145,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .people-team-title-descr {
   font-weight: 400;
@@ -205,4 +209,37 @@ img {
 .header-logo {
   padding: 24px 0;
   margin-right: 76px;
+}
+.wrapper {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list-benefits {
+  display: flex;
+  gap: 24px;
+}
+.punkt-list-benefits {
+  width: calc((100% - 72px) / 4);
+}
+.list-our-team-list {
+  display: flex;
+  gap: 24px;
+}
+.list-team-our {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.div-title-descr-people-team {
+  padding: 32px 0;
 }
